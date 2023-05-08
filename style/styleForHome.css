@@ -134,6 +134,11 @@ nav a{
     
 } */
 .matematika img{
+    margin: 30px 2px 10px 10px;
     width: 150px;
-    margin: auto;
+    
+}
+.matematika p{
+    margin: 0 35px;
+    color: #EDDDD4;
 }
