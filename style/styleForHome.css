@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: Viga;
+}
+
+
+@font-face {
+    font-family: 'viga';
+    src: url('/font/Viga-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+/* mulai di sini */
+
+.container{
+    display: flex;
+    width: auto;
+    
+}
+
+aside{
+    width: 20%;
+    height: 650px; 
+    border-right: 2px solid rgba(0, 0, 0, 0.4);
+    
+    
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+.info{
+    width: 30%;
+    height: 100%;
+    
+}
+
+/* icon SmartLearn */
+
+
+.icon-name{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    color: #197278;
+    font-size: 25px;
+}
+
+/* Navigasi */
+img{
+    width: 35px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.navigasi{
+    display: flex;
+    margin: 20px;
+    justify-content: first baseline;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* atur text pada navigasi */
+.menu1{
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.pilihan1 span.menu1{
+    color: white;
+}
+/* atur gambar pada navigasi */
+.img1 img{
+    width: 40px;
+}
+
+/* menu pilihan */
+span.pilihan1{
+    background-color: #197278;
+    border-radius: 10px;
+}
+
+/* warna style font pilihan */
+nav a{
+    text-decoration: none;
+}
+
+/* hover */
+.pilihan2:hover,.pilihan3:hover,.pilihan4:hover{
+
+    background-color: gray;
+    border-radius: 10px;
+    transition: 0.2;
+    color: white;
+}
+
+/* mata pelajaran */
+
+.course{
+    margin: 20px;
+    width: 180px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.matematika{
+    background-color: #772E25;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* .gambar{
+    
+} */
+.matematika img{
+    width: 150px;
+    margin: auto;
+}

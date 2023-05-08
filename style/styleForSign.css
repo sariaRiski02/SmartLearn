@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.928);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #197278;
+    margin-bottom: 20px;
+}
+
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #197278;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #ffffff;
+}
+
+button#btn-SignIn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #197278;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button#btn-SignIn:hover {
+    background-color: #135e60;
+}
+
+.Or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #197278;
+}
+
+hr {
+    flex: 1;
+    height: 1px;
+    background-color: #197278;
+    margin: 0 10px;
+}
+
+.Or-text {
+    font-size: 16px;
+}
+
+.SignInWithGoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #197278;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.SignInWithGoogle:hover {
+    background-color: #017880aa;
+    color: white;
+    border: #0000;
+}
+
+.Goto-SignUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.Goto-SignUp a {
+    color: #197278;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.Goto-SignUp a:hover {
+    color: #197278;
+    text-decoration: underline;
+}
