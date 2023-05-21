@@ -1,0 +1,72 @@
+ 
+@media screen and (max-width: 1128px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  aside {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  }
+  .menu1{
+      display: none;
+  }
+  .img img{
+      width: 50px;
+  }
+  span.pilihan1{
+      background-color: #197278;
+      border-radius: 10px;
+      margin-left: 0;
+      padding-left: 0;
+  }
+  .main {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .info {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  nav {
+    margin-top: 20px;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  
+  .navigasi {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img1 img{
+      margin-top: 13px;
+  }
+  .img2 img{
+      margin-top: 13px;
+      margin-right: 10px;
+  }
+  
+  
+  .gambar img {
+    width: 150px;
+  }
+  
+  .course {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .ref{
+    width: 100%;
+    justify-content: space-around;
+  }
+}
